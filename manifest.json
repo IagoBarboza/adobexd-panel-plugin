@@ -15,7 +15,11 @@
     {
       "type": "panel",
       "label": "Resize a Rectangle",
-      "panelId": "resizeRectangle"
+      "panelId": "resizeRectangle",
+      "shortcut": { 
+        "mac": "Cmd+Alt+R",
+        "windows": "Cmd+Alt+R"
+      }
     }
   ]
 }
