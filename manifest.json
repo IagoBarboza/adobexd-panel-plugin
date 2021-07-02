@@ -1,8 +1,8 @@
 {
   "id": "{PLUGIN_ID}",
-  "name": "Resize a Rectangle",
+  "name": "Resize Rectangle",
   "version": "0.0.1",
-  "description": "My first AdobeXD Panel Plugin",
+  "description": "AdobeXD Panel Plugin",
   "summary": "An AdobeXD panel plugin for resizing rectangles",
   "languages": ["en"],
   "author": "Iago Barboza",
@@ -14,12 +14,8 @@
   "uiEntryPoints": [
     {
       "type": "panel",
-      "label": "Resize a Rectangle",
-      "panelId": "resizeRectangle",
-      "shortcut": { 
-        "mac": "Cmd+Alt+R",
-        "windows": "Cmd+Alt+R"
-      }
+      "label": "Resize Rectangle",
+      "panelId": "resizeRectangle"
     }
   ]
 }
